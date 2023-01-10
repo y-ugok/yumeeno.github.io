@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Passions+Conflict&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Inknut+Antiqua:wght@300&display=swap");
+body {
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 40px;
+  margin-top: 0;
+  /* 上の白い余白を消す */
+  margin-bottom: 0;
+  text-align: right;
+}
+li {
+  display: inline-block;
+  margin-right: 70px;
+  font-size: 20px;
+}
+li:nth-child(4) {
+  margin-right: 250px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: rgb(237, 206, 158);
+}
+a:visited {
+  color: rgb(237, 206, 158);
+}
+a:hover {
+  color: azure;
+}
+a:active {
+  color: chocolate;
+}
+footer small {
+  text-align: center;
+  color: white;
+}
+.keyvisual {
+  width: 70%;
+  margin: 50px auto;
+  padding-bottom: 50px;
+}
+.keyvisual img {
+  width: 100%;
+}
+.eachTextAnime {
+  width: 50%;
+  font-size: 120px;
+  color: rgb(255, 255, 255);
+  font-family: "Allura", cursive;
+}
+.eachTextAnime span {
+  opacity: 0;
+}
+.eachTextAnime.appeartext span {
+  animation: text_anime_on 1s ease-out forwards;
+}
+@keyframes text_anime_on {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.keyvisual {
+  position: relative;
+  text-align: center;
+}
+.eachTextAnime {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text {
+  display: inline-block;
+}
+footer p {
+  text-align: center;
+}
+.right img {
+  width: 38%;
+}
+
+.block1 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+.right img {
+  width: 65%;
+  margin-left: 170px;
+}
+
+.title {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 28px;
+  height: 50px;
+  padding-left: 20px;
+  color: #515037;
+  border-left: 10px solid #515037;
+  border-bottom: 5px solid #515037;
+}
+.left p:nth-child(2) {
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+.left h1:nth-child(3) {
+  margin-top: 0;
+  margin-bottom: 85px;
+  font-family: "Inknut Antiqua", serif;
+}
+.green {
+  background-color: #515037;
+}
+
+.featherlight-sample {
+  display: none;
+}
+/* ポップアップ表示のCSS */
+.featherlight-sample {
+  display: none;
+  width: 800px;
+}
+
+.yoko img {
+  width: 400px;
+}
+.tate img {
+  width: 300px;
+}
+table {
+  text-align: center;
+}
+.block2 {
+  width: 70%;
+  margin: 150px auto 0 auto;
+}
+.featherlight-sample img {
+  width: 500px;
+  text-align: center;
+}
+.featherlight-sample > h3 {
+  text-align: center;
+}
+table a > p {
+  color: #515037;
+  font-family: "Allura", cursive;
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.photo {
+  text-align: center;
+}
+td a:link {
+  color: #515037;
+}
+td a:visited {
+  color: #515037;
+}
+td a:hover {
+  color: #8f8d63;
+}
+td a:active {
+  color: chocolate;
+}
+table td {
+  padding: 15px 80px;
+}
+/* .center {
+  text-align: center;
+} */
+/* .title:nth-of-type(3) {
+  position: relative;
+} */
+#photo {
+  position: relative;
+}
+#photo img:first-child {
+  top: 50px;
+  /* left: 100px; */
+  width: 430px;
+  position: absolute;
+}
+#photo img:nth-child(2) {
+  top: 120px;
+  width: 190px;
+  position: absolute;
+  left: 480px;
+}
+#photo img:nth-child(3) {
+  width: 350px;
+  position: absolute;
+  top: -45px;
+  left: 780px;
+}
+#photo img:nth-of-type(4) {
+  width: 330px;
+  position: absolute;
+  top: 420px;
+}
+#photo img:nth-of-type(5) {
+  width: 390px;
+  position: absolute;
+  left: 360px;
+  top: 485px;
+}
+#photo img:nth-of-type(6) {
+  width: 330px;
+  position: absolute;
+  left: 800px;
+  top: 470px;
+}
+#photo img:nth-of-type(7) {
+  width: 380px;
+  position: absolute;
+  top: 750px;
+}
+
+#photo img:nth-of-type(8) {
+  width: 200px;
+  position: absolute;
+  left: 425px;
+  top: 750px;
+}
+
+#photo img:nth-of-type(9) {
+  width: 400px;
+  position: absolute;
+  left: 730px;
+  top: 750px;
+}
+#photo img:nth-of-type(10) {
+  width: 550px;
+  position: absolute;
+  top: 1050px;
+}
+#photo img:nth-of-type(11) {
+  width: 490px;
+  position: absolute;
+  left: 640px;
+  top: 1080px;
+}
+.block3 {
+  width: 70%;
+  margin: 0 auto;
+}
+.block2 > h1,
+.block3 > h1 {
+  width: 50%;
+}
+.block3 {
+  margin-bottom: 50px;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  top: 1400px;
+  left: 500px;
+  font-size: 30px;
+  color: #515037;
+  font-family: "Allura", cursive;
+}
