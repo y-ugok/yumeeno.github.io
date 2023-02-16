@@ -32,7 +32,7 @@ li {
 } */
 /* Worksのポップアップ写真 */
 .featherlight-sample {
-  width: 70%;
+  width: 95%;
   height: auto;
 }
 
@@ -131,8 +131,11 @@ footer {
 
 .title {
   font-family: "Inknut Antiqua", serif;
-  line-height: 45px;
-  padding-left: 15px;
+  /* /* line-height: 45px; */
+  /* padding-left: 15px; */
+  line-height: 2.5vw;
+  padding-left: 0.6vw;
+  font-size: 1.6vw;
   color: #515037;
   border-left: 10px solid #515037;
   border-bottom: 5px solid #515037;
