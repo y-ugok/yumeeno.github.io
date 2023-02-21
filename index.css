@@ -400,6 +400,11 @@ td:nth-of-type(2) {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 1em;
+}
+.date p {
+  width: 37%;
+  text-align: center;
 }
 
 /* .tate img:nth-child(1) {
@@ -471,54 +476,6 @@ a.link-to-top {
 }
 /* ここまで */
 
-/*PC*/
-@media (max-width: 1025px) {
-  /* .top {
-    margin-left: 500px;
-  } */
-  li {
-    font-size: 15px;
-  }
-  /* .yoko img {
-    width: 400px;
-  }
-  .tate img {
-    width: 300px;
-  } */
-
-  /* .eachTextAnime {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 65px;
-  } */
-
-  table a > p {
-    color: #515037;
-    font-family: "Allura", cursive;
-    margin-top: 5px;
-    font-size: 10px;
-    font-weight: bold;
-  }
-}
-
-.left {
-  margin-left: 20px;
-}
-
-.button {
-  text-align: center;
-}
-
-button {
-  font-size: 1vw;
-  margin-top: 3vw;
-  width: 15vw;
-  height: 3em;
-  border-radius: 50%;
-}
 /* =========================================== */
 @media (max-width: 520px) {
   .block1 > h1,
@@ -550,7 +507,7 @@ button {
     width: 77%;
   }
   .green {
-    height: 100%;
+    height: 100vh;
     margin-bottom: 10vw;
   }
 
@@ -560,6 +517,7 @@ button {
   }
   .sp {
     display: block !important;
+    height: 80vh;
   }
   .eachTextAnime {
     font-size: 17vw;
