@@ -1,56 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Passions+Conflict&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Inknut+Antiqua:wght@300&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css2?family=Allura&family=Cardo&family=Cinzel&family=Cinzel+Decorative&family=Cormorant+Garamond&family=Cormorant+Infant:wght@300&family=Crimson+Text&family=DM+Serif+Display&family=EB+Garamond&family=Gloock&family=Inknut+Antiqua:wght@300&family=Inter:wght@200&family=Lato:wght@300&family=Libre+Caslon+Text&family=Libre+Franklin:wght@300&family=Lora&family=Nanum+Myeongjo&family=Open+Sans&family=PT+Sans&family=Playfair+Display&family=Quicksand:wght@300&family=Satisfy&display=swap"); */
+
+/* =================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Cardo&family=Cinzel&family=Cinzel+Decorative&family=Cormorant+Garamond&family=Cormorant+Infant:wght@300&family=Crimson+Text&family=DM+Serif+Display&family=EB+Garamond&family=Gloock&family=Inknut+Antiqua:wght@300&family=Inter:wght@200&family=Lato:wght@300&family=Libre+Caslon+Text&family=Libre+Franklin:wght@300&family=Lora&family=Nanum+Myeongjo&family=Noto+Serif+JP:wght@200&family=Open+Sans&family=PT+Sans&family=Playfair+Display&family=Quicksand:wght@300&family=Satisfy&display=swap");
+
+/* pタグ */
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Cardo&family=Cinzel&family=Cinzel+Decorative&family=Cormorant+Garamond&family=Cormorant+Infant:wght@300&family=Crimson+Text&family=DM+Serif+Display&family=EB+Garamond&family=Gloock&family=Inknut+Antiqua:wght@300&family=Inter:wght@200&family=Lato:wght@300&family=Libre+Caslon+Text&family=Libre+Franklin:wght@300&family=Lora&family=Nanum+Myeongjo&family=Noto+Sans+JP:wght@100&family=Noto+Serif+JP:wght@200&family=Open+Sans&family=PT+Sans&family=Playfair+Display&family=Quicksand:wght@300&family=Satisfy&display=swap");
 body {
   background-color: #ffffff;
+  margin: 0;
+  height: 100vw;
+}
+header img {
+  width: 100%;
+}
+main {
+  max-width: 1030px;
+  width: 70%;
   margin: 0 auto;
 }
-
 ul {
-  list-style-type: none;
-  padding-top: 40px;
   margin-top: 0;
-  /* 上の白い余白を消す */
-  margin-bottom: 0;
-  text-align: right;
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 18px;
 }
 li {
-  display: inline-block;
-  margin-right: 70px;
+  padding: 10px;
   font-size: 20px;
+  font-family: "Cormorant Infant", serif;
 }
-li:nth-child(4) {
-  margin-right: 250px;
+.top {
+  display: flex;
+  justify-content: flex-end;
 }
+/* .top li {
+  float: left;
+} */
+/* Worksのポップアップ写真 */
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc {
+  display: block !important;
+}
+.sp {
+  display: none !important;
+}
+
 a {
   text-decoration: none;
 }
+/* #inner3 {
+  width: 100%;
+} */
 a:link {
-  color: rgb(237, 206, 158);
+  color: rgb(211, 179, 52);
 }
 a:visited {
-  color: rgb(237, 206, 158);
+  color: rgb(211, 179, 52);
 }
 a:hover {
-  color: azure;
+  color: rgb(252, 215, 0);
 }
 a:active {
-  color: chocolate;
+  color: rgb(182, 140, 62);
 }
+
 footer small {
   text-align: center;
   color: white;
 }
-.keyvisual {
-  width: 70%;
-  margin: 50px auto;
-  padding-bottom: 50px;
+header {
+  width: 75%;
+  max-width: 1030px;
+  margin: 0 auto 5vw auto;
+  padding-bottom: 5vw;
+  position: relative;
 }
-.keyvisual img {
+/* header img {
   width: 100%;
-}
+} */
+/* ↓必要 */
 .eachTextAnime {
   width: 50%;
-  font-size: 120px;
+  margin: 0 auto;
+  font-size: 7vw;
   color: rgb(255, 255, 255);
   font-family: "Allura", cursive;
 }
@@ -74,7 +110,7 @@ footer small {
 }
 .eachTextAnime {
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -82,41 +118,80 @@ footer small {
 .text {
   display: inline-block;
 }
-footer p {
-  text-align: center;
+footer {
+  margin: 0 auto;
 }
 .right img {
   width: 38%;
 }
 
 .block1 {
-  width: 70%;
+  margin-bottom: 100px;
+}
+.block1-flex {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  align-items: flex-end;
 }
+
 .left {
   width: 50%;
 }
+
 .right {
   width: 50%;
 }
-.right img {
-  width: 65%;
-  margin-left: 170px;
-}
 
-.title {
-  font-family: "Inknut Antiqua", serif;
-  font-size: 28px;
-  height: 50px;
-  padding-left: 20px;
-  color: #515037;
-  border-left: 10px solid #515037;
-  border-bottom: 5px solid #515037;
+.right img {
+  margin-top: 12%;
+  width: 80%;
+  margin-left: 18%;
 }
-.left p:nth-child(2) {
-  margin-top: 80px;
+.title {
+  /* font-family: "Libre Caslon Text", serif; */
+  font-family: "Cormorant Infant", serif;
+  color: #515037;
+}
+@media (min-width: 521px) {
+  main {
+    max-width: 1030px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .title {
+    /* font-family: "Inknut Antiqua", serif; */
+    line-height: 2.75vw;
+    padding-left: 0.65vw;
+    font-size: 2vw;
+    border-left: 0.5vw solid #515037;
+    border-bottom: 0.3vw solid #515037;
+    /* margin-
+  bottom: 3.5vw; */
+  }
+  .block1 > h1,
+  .block2 > h1,
+  .block3 > h1 {
+    width: 50%;
+  }
+}
+#Work,
+#Photo {
+  margin-bottom: 1.3vw;
+}
+.left > p:first-child {
+  margin-bottom: 0;
+  /* margin-top: 30px; */
+  margin-top: 9vw;
+  font-size: 0.8vw;
+}
+/* .left p:nth-child(2) {
+  /* margin-top: 120px; */
+/* margin-top: 3vw;
+  margin-bottom: 0;
+} 
+*/
+.left p:nth-of-type(2) {
+  margin-top: 2vw;
   margin-bottom: 0;
 }
 .left h1:nth-child(3) {
@@ -124,48 +199,65 @@ footer p {
   margin-bottom: 85px;
   font-family: "Inknut Antiqua", serif;
 }
+.left p {
+  font-size: 1vw;
+  font-family: "Noto Serif JP", serif;
+}
+.left h1 {
+  /* margin-top: 160px; */
+  /* font-size: 40px; */
+  /* margin-top: 14vw; */
+  margin-bottom: 9vw;
+  font-size: 6.5vw;
+  font-family: "Allura", cursive;
+}
 .green {
   background-color: #515037;
 }
-
-.featherlight-sample {
-  display: none;
+.left:nth-child(3) {
+  margin-top: 5vw;
 }
+
 /* ポップアップ表示のCSS */
 .featherlight-sample {
   display: none;
-  width: 800px;
+  /* width: 800px; */
 }
 
-.yoko img {
-  width: 400px;
-}
-.tate img {
-  width: 300px;
+#border {
+  border: solid 1px black;
 }
 table {
   text-align: center;
-}
-.block2 {
   width: 70%;
   margin: 150px auto 0 auto;
 }
-.featherlight-sample img {
-  width: 500px;
-  text-align: center;
+
+#inner3 img,
+#inner4 img {
+  width: 50%;
+}
+#inner2 img,
+#inner img,
+#inner5 img {
+  width: 78%;
 }
 .featherlight-sample > h3 {
   text-align: center;
+  font-family: "Noto Serif JP", serif;
 }
-table a > p {
-  color: #515037;
-  font-family: "Allura", cursive;
-  margin-top: 5px;
-  font-size: 30px;
-  font-weight: bold;
-}
+
 .photo {
   text-align: center;
+}
+.featherlight-sample > p {
+  font-family: "Noto Serif JP", serif;
+
+  font-size: 0.95vw;
+}
+.photo h3 {
+  font-size: 1.5vw;
+  font-family: "Noto Serif JP", serif;
 }
 td a:link {
   color: #515037;
@@ -179,100 +271,333 @@ td a:hover {
 td a:active {
   color: chocolate;
 }
-table td {
-  padding: 15px 80px;
+td {
+  padding: 10px 20px;
 }
-/* .center {
-  text-align: center;
-} */
-/* .title:nth-of-type(3) {
-  position: relative;
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  margin: 0 auto;
+  /* background-color: antiquewhite; */
+}
+/* td:nth-of-type(1) {
+  background-color: #8f8d63;
+}
+td:nth-of-type(2) {
+  background-color: #8d882a;
 } */
 #photo {
-  position: relative;
+  /* position: relative; */
+  /* margin-left: 25%; */
+  display: flex;
+  /* max-width: 1030px;
+   */
+  /* width: 65%; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 auto;
+  row-gap: 1.3vw;
 }
 #photo img:first-child {
-  top: 50px;
+  top: 30px;
   /* left: 100px; */
-  width: 430px;
-  position: absolute;
+  /* width: 430px; */
+  width: 45%;
+  /* position: absolute; */
 }
 #photo img:nth-child(2) {
   top: 120px;
-  width: 190px;
-  position: absolute;
+  /* width: 190px; */
+  width: 20%;
+  /*position: absolute;*/
   left: 480px;
 }
 #photo img:nth-child(3) {
-  width: 350px;
-  position: absolute;
+  /* width: 350px; */
+  width: 30%;
+  /*position: absolute;*/
   top: -45px;
   left: 780px;
 }
 #photo img:nth-of-type(4) {
-  width: 330px;
-  position: absolute;
+  /* width: 330px; */
+  /*position: absolute;*/
+  width: 30%;
   top: 420px;
 }
 #photo img:nth-of-type(5) {
-  width: 390px;
-  position: absolute;
+  /* width: 390px; */
+  width: 35%;
+  /*position: absolute;*/
   left: 360px;
   top: 485px;
 }
 #photo img:nth-of-type(6) {
-  width: 330px;
-  position: absolute;
+  /* width: 330px; */
+  width: 30%;
+  /*position: absolute;*/
   left: 800px;
   top: 470px;
 }
 #photo img:nth-of-type(7) {
-  width: 380px;
-  position: absolute;
+  /* width: 380px; */
+  width: 35%;
+  /*position: absolute;*/
   top: 750px;
 }
 
 #photo img:nth-of-type(8) {
-  width: 200px;
-  position: absolute;
+  /* width: 200px; */
+  width: 20%;
+  /*position: absolute;*/
   left: 425px;
   top: 750px;
 }
 
 #photo img:nth-of-type(9) {
-  width: 400px;
-  position: absolute;
+  /* width: 400px; */
+  width: 30%;
+  /*position: absolute;*/
   left: 730px;
   top: 750px;
 }
 #photo img:nth-of-type(10) {
-  width: 550px;
-  position: absolute;
+  /* width: 550px; */
+  width: 45%;
+  /*position: absolute;*/
   top: 1050px;
 }
 #photo img:nth-of-type(11) {
-  width: 490px;
-  position: absolute;
+  /* width: 490px; */
+  width: 45%;
+  /*position: absolute;*/
   left: 640px;
   top: 1080px;
 }
-.block3 {
-  width: 70%;
-  margin: 0 auto;
+
+.block2-flex > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.block2 > h1,
-.block3 > h1 {
-  width: 50%;
+.block2-flex > div > a {
+  width: 48%;
+  text-align: center;
+}
+.block2-flex p {
+  font-weight: bold;
+  color: #515037;
+  font-size: 1.75vw;
+  font-family: "Allura", cursive;
+  margin-top: 0px;
+}
+.yoko img {
+  width: 92%;
+}
+.date {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .tate img:nth-child(1) {
+  width: 72%;
+}
+.tate img:nth-child(2) {
+  width: 68%;
+} */
+.tate a:nth-of-type(1) > img {
+  /* text-align: left; */
+  width: 83%;
+}
+.tate a:nth-of-type(2) > img {
+  /* text-align: right; */
+  width: 74%;
+  margin-top: 1vw;
 }
 .block3 {
+  /* margin: 0 auto; */
   margin-bottom: 50px;
 }
 footer {
-  position: absolute;
   text-align: center;
   top: 1400px;
   left: 500px;
-  font-size: 30px;
+  font-size: 2vw;
   color: #515037;
   font-family: "Allura", cursive;
+}
+/* トップに戻るボタンここから */
+
+a.link-to-top {
+  color: #333;
+  bottom: 0vw;
+  right: 6vw;
+  /* color: #515037; */
+  /* color: #515037; */
+
+  position: fixed;
+  bottom: 0vw;
+  right: 6vw;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  padding: 16px 20px;
+  text-align: right;
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+  /* background-color: white; */
+}
+.arrow1 {
+  width: 48px;
+  height: 1px;
+  background: #333;
+  position: absolute;
+  top: 50%;
+  right: 62px;
+}
+
+.arrow2 {
+  width: 1px;
+  height: 12px;
+  background: #333;
+  position: absolute;
+  top: calc(50% + 1px);
+  right: 109px;
+  transform: rotate(-130deg);
+  transform-origin: top left;
+}
+/* ここまで */
+
+/*PC*/
+@media (max-width: 1025px) {
+  /* .top {
+    margin-left: 500px;
+  } */
+  li {
+    font-size: 15px;
+  }
+  /* .yoko img {
+    width: 400px;
+  }
+  .tate img {
+    width: 300px;
+  } */
+
+  /* .eachTextAnime {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 65px;
+  } */
+
+  table a > p {
+    color: #515037;
+    font-family: "Allura", cursive;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
+
+.left {
+  margin-left: 20px;
+}
+
+/* =========================================== */
+@media (max-width: 520px) {
+  .block1 > h1,
+  .block2 > h1,
+  .block3 > h1 {
+    width: 100%;
+  }
+
+  main {
+    max-width: 1030px;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .left h1 {
+    display: none;
+  }
+  .left p {
+    font-size: 3vw;
+    font-family: "Noto Serif JP", serif;
+  }
+  li {
+    font-size: 4.5vw;
+    padding: 1.1vw 0 0 3.6vw;
+  }
+
+  #inner3 img,
+  #inner4 img {
+    width: 77%;
+  }
+  .green {
+    height: 100%;
+    margin-bottom: 10vw;
+  }
+
+  /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+  .pc {
+    display: none !important;
+  }
+  .sp {
+    display: block !important;
+  }
+  .eachTextAnime {
+    font-size: 17vw;
+  }
+  /* タイトルの右の線 */
+  .title {
+    display: flex;
+    align-items: center; /* 縦位置の調整 */
+  }
+
+  .title::after {
+    content: "";
+    flex-grow: 1; /* 余白を分け与える */
+    height: 0.1vw;
+    background-color: #515037;
+    margin-left: 3vw;
+  }
+  /* モバイル版Aboutページ */
+  .block1-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .right {
+    order: 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .right img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .flex-item3 {
+    color: rgb(182 140 62);
+  }
+  .left {
+    order: 1;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .block2-flex p {
+    font-size: 5vw;
+  }
+  a.link-to-top {
+    font-size: 13px;
+    bottom: 0vw;
+    right: 9.75vw;
+  }
+  footer {
+    font-size: 5.5vw;
+  }
 }
