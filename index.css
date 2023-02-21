@@ -508,6 +508,17 @@ a.link-to-top {
   margin-left: 20px;
 }
 
+.button {
+  text-align: center;
+}
+
+button {
+  font-size: 1vw;
+  margin-top: 3vw;
+  width: 15vw;
+  height: 3em;
+  border-radius: 50%;
+}
 /* =========================================== */
 @media (max-width: 520px) {
   .block1 > h1,
