@@ -111,7 +111,7 @@ header {
 .eachTextAnime {
   position: absolute;
   top: 53%;
-  left: 50%;
+  left: 48%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -522,6 +522,8 @@ a.link-to-top {
   .sp {
     display: block !important;
     height: 80vh;
+    object-fit: none;
+    object-position: center;
   }
   .eachTextAnime {
     font-size: 17vw;
