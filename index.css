@@ -490,6 +490,10 @@ a.link-to-top {
     margin: 0 auto;
   }
 
+  header {
+    width: 87%;
+  }
+
   .left h1 {
     display: none;
   }
