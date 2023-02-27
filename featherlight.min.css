@@ -8,9 +8,6 @@
 html.with-featherlight {
   overflow: hidden;
 }
-.photo > img {
-  width: 50%;
-}
 .featherlight {
   display: none;
   position: fixed;
