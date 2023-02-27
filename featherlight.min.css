@@ -8,6 +8,9 @@
 html.with-featherlight {
   overflow: hidden;
 }
+.photo > img {
+  width: 50%;
+}
 .featherlight {
   display: none;
   position: fixed;
@@ -41,7 +44,7 @@ html.with-featherlight {
   border-bottom: 25px solid transparent;
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 45%;
+  max-width: 50%;
   /* max-height: 95%; */
   background: #fff;
   cursor: auto;
@@ -52,6 +55,7 @@ html.with-featherlight {
 } */
 .featherlight .featherlight-inner {
   display: block;
+  text-align: left;
 }
 .featherlight link.featherlight-inner,
 .featherlight script.featherlight-inner,
@@ -69,7 +73,8 @@ html.with-featherlight {
   text-align: center;
   font-family: Arial, sans-serif;
   background: #fff;
-  background: rgba(255, 255, 255, 0.3);
+  /* background: rgba(255, 255, 255, 0.3); */
+  background: rgba(255, 255, 255, 0);
   color: #000;
   border: 0;
   padding: 0;
@@ -98,8 +103,8 @@ html.with-featherlight {
   .featherlight .featherlight-content {
     margin-left: 0;
     margin-right: 0;
-    max-width: 75%;
-    padding: 10px 10px 0;
+    max-width: 96%;
+    padding: 15px 10px 0;
     border-bottom: 10px solid transparent;
   }
   .eachTextAnime {
@@ -110,11 +115,13 @@ html.with-featherlight {
     text-align: center;
   }
   .featherlight-sample h3 {
-    font-size: 2.8vw;
+    font-size: 2.3vw;
+    margin-top: 0;
     font-family: "Noto Serif JP", serif;
   }
   .featherlight-sample p {
-    font-size: 2.5vw;
+    text-align: left;
+    font-size: 2.9vw;
     font-family: "Noto Serif JP", serif;
   }
 }
@@ -132,6 +139,32 @@ html.with-featherlight {
     display: none;
   }
 }
-/* .featherlight-content {
-  font-size: 0.5vw;
-} */
+
+#inner7 > img,
+#inner8 > img,
+#inner13 > img {
+  width: 70%;
+}
+#inner6 > img,
+#inner9 > img,
+#inner10 > img,
+#inner12 > img,
+#inner11 > img,
+#inner14 > img,
+#inner15 > img,
+#inner16 > img {
+  width: 95%;
+}
+#inner6,
+#inner7,
+#inner8,
+#inner9,
+#inner10,
+#inner11,
+#inner12,
+#inner13,
+#inner14,
+#inner15,
+#inner16 {
+  text-align: center;
+}

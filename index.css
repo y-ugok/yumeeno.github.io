@@ -278,11 +278,11 @@ table {
 #inner4 img {
   width: 50%;
 }
-#inner2 img,
+/* #inner2 img,
 #inner img,
 #inner5 img {
   width: 78%;
-}
+} */
 .featherlight-sample > h3 {
   text-align: center;
   font-family: "Noto Serif JP", serif;
