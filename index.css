@@ -54,16 +54,16 @@ a {
 /* #inner3 {
   width: 100%;
 } */
-a:link {
+.top a:link {
   color: rgb(211, 179, 52);
 }
-a:visited {
+.top a:visited {
   color: rgb(211, 179, 52);
 }
-a:hover {
+.top a:hover {
   color: rgb(252, 215, 0);
 }
-a:active {
+.top a:active {
   color: rgb(182, 140, 62);
 }
 
@@ -614,12 +614,13 @@ footer {
 
   a.link-to-top {
     position: fixed;
-    bottom: 0vw;
-    right: 3vw;
+    color: #333;
+    bottom: 3.5vw;
+    right: 7vw;
     text-decoration: none;
     display: block;
     width: 100px;
-    padding: 16px 20px;
+    padding: 0vw 4vw;
     text-align: right;
     transform: rotate(90deg);
     transform-origin: bottom right;
