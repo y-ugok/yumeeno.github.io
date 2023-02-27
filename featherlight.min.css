@@ -22,6 +22,7 @@ html.with-featherlight {
   background: #333;
   background: rgba(0, 0, 0, 0);
 }
+
 .featherlight:last-of-type {
   background: rgba(0, 0, 0, 0.8);
 }
@@ -95,6 +96,7 @@ html.with-featherlight {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 100%;
 }
 @media only screen and (max-width: 520px) {
   .featherlight .featherlight-content {
