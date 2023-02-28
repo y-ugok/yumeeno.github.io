@@ -24,7 +24,7 @@ ul {
   margin-top: 0;
   list-style-type: none;
   padding-left: 0;
-  padding-top: 18px;
+  padding-top: 19px;
   margin-bottom: 1.2vw;
 }
 li {
@@ -204,7 +204,7 @@ footer {
     color: #333;
     position: fixed;
     bottom: 1.25vw;
-    right: 7vw;
+    right: 6vw;
     text-decoration: none;
     display: block;
     width: 100px;
@@ -545,7 +545,7 @@ footer {
   .sp {
     display: block !important;
     height: 86vh;
-    /* object-fit: cover; */
+    object-fit: cover;
     object-position: center;
   }
   .eachTextAnime {
