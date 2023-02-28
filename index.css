@@ -7,6 +7,10 @@
 
 /* pタグ */
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Cardo&family=Cinzel&family=Cinzel+Decorative&family=Cormorant+Garamond&family=Cormorant+Infant:wght@300&family=Crimson+Text&family=DM+Serif+Display&family=EB+Garamond&family=Gloock&family=Inknut+Antiqua:wght@300&family=Inter:wght@200&family=Lato:wght@300&family=Libre+Caslon+Text&family=Libre+Franklin:wght@300&family=Lora&family=Nanum+Myeongjo&family=Noto+Sans+JP:wght@100&family=Noto+Serif+JP:wght@200&family=Open+Sans&family=PT+Sans&family=Playfair+Display&family=Quicksand:wght@300&family=Satisfy&display=swap");
+
+/* Yumeno's Portfolioの所 */
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Cormorant+Garamond&family=Lora&family=Sorts+Mill+Goudy&display=swap");
+
 body {
   background-color: #ffffff;
   margin: 0;
@@ -36,6 +40,7 @@ li {
   display: flex;
   justify-content: flex-end;
 }
+
 /* .top li {
   float: left;
 } */
@@ -43,6 +48,9 @@ li {
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc {
   display: block !important;
+}
+.tb {
+  display: none !important;
 }
 .sp {
   display: none !important;
@@ -85,9 +93,10 @@ header {
 .eachTextAnime {
   width: 50%;
   margin: 0 auto;
-  font-size: 7vw;
+  font-size: 5.5vw;
   color: rgb(255, 255, 255);
-  font-family: "Allura", cursive;
+  /* font-family: "Allura", cursive; */
+  font-family: "Cormorant Garamond", serif;
 }
 .eachTextAnime span {
   opacity: 0;
@@ -109,8 +118,8 @@ header {
 }
 .eachTextAnime {
   position: absolute;
-  top: 53%;
-  left: 48%;
+  top: 47%;
+  left: 51%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -485,6 +494,18 @@ footer {
 .button {
   text-align: center;
 }
+
+/* =========================================== */
+@media (max-width: 1100px) {
+  .eachTextAnime {
+    position: absolute;
+    top: 51.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    text-align: center;
+  }
+}
 /* =========================================== */
 @media (max-width: 520px) {
   .block1 > h1,
@@ -544,7 +565,7 @@ footer {
   .pc {
     display: none !important;
   }
-  .sp {
+  .tb {
     display: block !important;
     /* height: 86vh; */
     height: 470px;
@@ -553,22 +574,45 @@ footer {
     /* object-fit: cover; */
     object-position: center;
   }
-  .eachTextAnime {
-    font-size: 17vw;
+  .sp {
+    display: none !important;
   }
+
+  .eachTextAnime {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 13vw;
+    text-align: center;
+  }
+
   /* タイトルの右の線 */
-  .title {
+  /* .title {
     display: flex;
     align-items: center; /* 縦位置の調整 */
-  }
+  /* }
 
   .title::after {
     content: "";
-    flex-grow: 1; /* 余白を分け与える */
+    flex-grow: 1; 
     height: 0.1vw;
     background-color: #515037;
     margin-left: 3vw;
+  }  */
+
+  .title {
+    display: flex;
+    align-items: center; /* 垂直中心 */
+    justify-content: space-between; /* 水平中心 */
   }
+
+  .title:after {
+    border-top: #515037 1px solid;
+    content: "";
+    width: 70%; /* 線の長さ */
+  }
+
   /* モバイル版Aboutページ */
   .block1-flex {
     display: flex;
@@ -639,6 +683,27 @@ footer {
     font-size: 5.5vw;
   }
 }
+/* タブレット対応メディアクエリここまで */
+
+/* スマホ対応メディアクエリここから */
+@media (max-width: 390px) {
+  .pc {
+    display: none !important;
+  }
+  .tb {
+    display: none !important;
+  }
+  .sp {
+    display: block !important;
+    /* height: 86vh; */
+    height: 470px;
+    width: 100%;
+    object-fit: inherit;
+    /* object-fit: cover; */
+    object-position: center;
+  }
+}
+/* スマホ対応メディアクエリここまで */
 button {
   width: 20vw;
   border-radius: 30px 30px 30px 30px;
