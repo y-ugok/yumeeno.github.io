@@ -11,6 +11,13 @@
 /* Yumeno's Portfolioの所 */
 @import url("https://fonts.googleapis.com/css2?family=Cardo&family=Cormorant+Garamond&family=Lora&family=Sorts+Mill+Goudy&display=swap");
 
+/* Yumeno's Portfolioの所試し */
+/* @import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=EB+Garamond&family=Gloock&family=Libre+Baskerville&family=Mynerve&display=swap"); */
+
+/* Yumeno's Portfolioの所試し */
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Crimson+Text&family=EB+Garamond&family=Gloock&family=Libre+Baskerville&family=Mynerve&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Crimson+Text&family=EB+Garamond&family=Gloock&family=Libre+Baskerville&family=Mynerve&display=swap");
 body {
   background-color: #ffffff;
   margin: 0;
@@ -40,7 +47,13 @@ li {
   display: flex;
   justify-content: flex-end;
 }
-
+.gosyuin {
+  text-align: center;
+  margin-top: 5vw;
+  font-family: "Cormorant Infant", serif;
+  margin-bottom: 0;
+  font-size: 1vw;
+}
 /* .top li {
   float: left;
 } */
@@ -95,8 +108,11 @@ header {
   margin: 0 auto;
   font-size: 5.5vw;
   color: rgb(255, 255, 255);
-  /* font-family: "Allura", cursive; */
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Allura", cursive;
+  /* font-family: "Cormorant Garamond", serif; */
+  /* font-family: "Butler_Black.otf"; */
+  /* font-family: "Mynerve", cursive; */
+  /* font-family: "Cinzel", serif; */
 }
 .eachTextAnime span {
   opacity: 0;
@@ -161,6 +177,19 @@ footer {
   /* font-family: "Libre Caslon Text", serif; */
   font-family: "Cormorant Infant", serif;
   color: #515037;
+}
+
+@media (max-width: 1280px) {
+  .top a:link {
+    color: rgb(211, 179, 52);
+  }
+  .top a:visited {
+    color: rgb(211, 179, 52);
+  }
+
+  .top a:active {
+    color: rgb(182, 140, 62);
+  }
 }
 @media (min-width: 521px) {
   li:last-child {
@@ -502,8 +531,9 @@ footer {
     top: 51.5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: center;
+    font-style: italic;
   }
 }
 /* =========================================== */
