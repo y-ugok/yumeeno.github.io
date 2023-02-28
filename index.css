@@ -500,7 +500,7 @@ footer {
   }
 
   header {
-    width: 87%;
+    width: 85%;
   }
 
   .tate,
@@ -544,7 +544,7 @@ footer {
   }
   .sp {
     display: block !important;
-    height: 86vh;
+    /* height: 86vh; */
     object-fit: cover;
     object-position: center;
   }
