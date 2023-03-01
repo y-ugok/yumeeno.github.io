@@ -7,6 +7,7 @@
   /*横幅94%で左右に余白を持たせて中央寄せ*/
   width: 94%;
   margin: 0 auto;
+  padding-top: 0;
 }
 .slider img {
   width: 30vw;
@@ -61,7 +62,7 @@
 
 .slick-dots {
   text-align: center;
-  margin: 20px 0 0 0;
+  margin: 0;
 }
 
 .slick-dots li {
@@ -85,21 +86,11 @@
 
 /*========= レイアウトのためのCSS ===============*/
 
-body {
-  background: #eee;
-}
-
 /* h2,
 p {
   text-align: center;
   padding: 20px;
 } */
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 a {
   color: #333;
