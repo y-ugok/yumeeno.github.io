@@ -107,7 +107,7 @@ html.with-featherlight {
   .eachTextAnime {
     position: absolute;
     top: 52%;
-    left: 46.5%;
+    left: 45%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
