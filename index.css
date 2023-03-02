@@ -72,9 +72,7 @@ li {
 a {
   text-decoration: none;
 }
-/* #inner3 {
-  width: 100%;
-} */
+
 .top a:link {
   color: rgb(211, 179, 52);
 }
@@ -99,9 +97,6 @@ header {
   padding-bottom: 5vw;
   position: relative;
 }
-/* header img {
-  width: 100%;
-} */
 /* ↓必要 */
 .eachTextAnime {
   width: 50%;
@@ -109,25 +104,8 @@ header {
   font-size: 5.5vw;
   color: rgb(255, 255, 255);
   font-family: "Allura", cursive;
-  /* font-family: "Cormorant Garamond", serif; */
-  /* font-family: "Butler_Black.otf"; */
-  /* font-family: "Mynerve", cursive; */
-  /* font-family: "Cinzel", serif; */
 }
-.eachTextAnime span {
-  opacity: 0;
-}
-.eachTextAnime.appeartext span {
-  animation: text_anime_on 1s ease-out forwards;
-}
-@keyframes text_anime_on {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 .keyvisual {
   position: relative;
   text-align: center;
@@ -190,6 +168,24 @@ footer {
   .top a:active {
     color: rgb(182, 140, 62);
   }
+}
+@media (min-width: 960px) {
+  /* Yumeno's PortfolioのJavascriptここから */
+  .eachTextAnime span {
+    opacity: 0;
+  }
+  .eachTextAnime.appeartext span {
+    animation: text_anime_on 1s ease-out forwards;
+  }
+  @keyframes text_anime_on {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* Yumeno's PortfolioのJavascriptここまで */
 }
 @media (min-width: 521px) {
   li:last-child {
@@ -441,7 +437,7 @@ td:nth-of-type(2) {
 
 #photo2 a:nth-of-type(9) {
   /* width: 400px; */
-  width: 30%;
+  width: 35%;
   /*position: absolute;*/
   /* left: 730px;
   top: 750px; */
