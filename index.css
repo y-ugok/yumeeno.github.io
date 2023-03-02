@@ -607,9 +607,9 @@ footer {
   .eachTextAnime {
     position: absolute;
     top: 55%;
-    left: 45%;
+    left: 48%;
     transform: translate(-50%, -50%);
-    font-size: 13vw;
+    font-size: 15vw;
     text-align: center;
   }
 
