@@ -14,12 +14,6 @@
   margin: 0 auto;
 }
 
-@media (max-width: 520px) {
-  .slider img {
-    width: 65vw; /*スライダー内の画像を60vwにしてレスポンシブ化*/
-    height: auto;
-  }
-}
 .slider .slick-slide {
   transform: scale(0.8); /*左右の画像のサイズを80%に*/
   transition: all 0.5s; /*拡大や透過のアニメーションを0.5秒で行う*/
@@ -67,14 +61,15 @@
 
 .slick-dots li {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 1vw;
+  padding: 0;
 }
 
 .slick-dots button {
   color: transparent;
   outline: none;
-  width: 8px; /*ドットボタンのサイズ*/
-  height: 8px; /*ドットボタンのサイズ*/
+  width: 1.5vw; /*ドットボタンのサイズ*/
+  height: 1vw; /*ドットボタンのサイズ*/
   display: block;
   border-radius: 50%;
   background: #ccc; /*ドットボタンの色*/
@@ -99,4 +94,21 @@ a {
 a:hover,
 a:active {
   text-decoration: none;
+}
+
+@media (max-width: 520px) {
+  .slider img {
+    width: 65vw; /*スライダー内の画像を60vwにしてレスポンシブ化*/
+    height: auto;
+  }
+
+  .slick-dots button {
+    color: transparent;
+    outline: none;
+    width: 10px; /*ドットボタンのサイズ*/
+    height: 8px; /*ドットボタンのサイズ*/
+    display: block;
+    border-radius: 50%;
+    background: #ccc; /*ドットボタンの色*/
+  }
 }
