@@ -38,8 +38,7 @@ html.with-featherlight {
   display: inline-block;
   overflow: auto;
   padding: 25px 25px 0;
-  margin-left: 5%;
-  margin-right: 5%;
+
   max-width: 43%;
   background: #fff;
   cursor: auto;
@@ -94,11 +93,20 @@ html.with-featherlight {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@media only screen and (max-width: 960px) {
+  .featherlight .featherlight-content {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 62%;
+    padding: 15px 10px 0;
+  }
+}
 @media only screen and (max-width: 520px) {
   .featherlight .featherlight-content {
     margin-left: 0;
     margin-right: 0;
-    max-width: 96%;
+    max-width: 85%;
     padding: 15px 10px 0;
   }
   .eachTextAnime {
@@ -115,7 +123,7 @@ html.with-featherlight {
   }
   .featherlight-sample p {
     text-align: left;
-    font-size: 2.9vw;
+    font-size: 2.2vw;
     font-family: "Noto Serif JP", serif;
   }
 }
