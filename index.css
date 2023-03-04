@@ -155,16 +155,7 @@ footer {
   font-family: "Cormorant Infant", serif;
   color: #515037;
 }
-button {
-  width: 20vw;
-  border-radius: 30px 30px 30px 30px;
-  background-color: floralwhite;
-  font-family: "Cormorant Infant", serif;
-  border: solid 1.5px #515037;
-}
-.button button {
-  margin-top: 3vw;
-}
+
 .info-touch {
   color: #a8860e;
   font-family: "Cormorant Infant", serif;
