@@ -87,4 +87,7 @@
     border-radius: 50%;
     background: #ccc; /*ドットボタンの色*/
   }
+  .slider img {
+    width: 50vw;
+  }
 }
