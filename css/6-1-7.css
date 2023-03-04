@@ -2,8 +2,8 @@
 スライダーのためのcss
 ===================================*/
 .slider {
-  /*横幅94%で左右に余白を持たせて中央寄せ*/
-  width: 80%;
+  /*横幅88%で左右に余白を持たせて中央寄せ*/
+  width: 88%;
   margin: 0 auto;
   padding-top: 1vw;
 }
@@ -41,13 +41,13 @@
 
 .slick-prev {
   /*戻る矢印の位置と形状*/
-  left: -10%;
+  left: -5%;
   transform: rotate(-135deg);
 }
 
 .slick-next {
   /*次へ矢印の位置と形状*/
-  right: -10%;
+  right: -5%;
   transform: rotate(45deg);
 }
 
