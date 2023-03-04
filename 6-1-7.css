@@ -3,7 +3,7 @@
 ===================================*/
 .slider {
   /*横幅94%で左右に余白を持たせて中央寄せ*/
-  width: 94%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 1vw;
 }
@@ -41,13 +41,13 @@
 
 .slick-prev {
   /*戻る矢印の位置と形状*/
-  left: -1.5%;
+  left: -10%;
   transform: rotate(-135deg);
 }
 
 .slick-next {
   /*次へ矢印の位置と形状*/
-  right: -1.5%;
+  right: -10%;
   transform: rotate(45deg);
 }
 
@@ -88,6 +88,6 @@
     background: #ccc; /*ドットボタンの色*/
   }
   .slider img {
-    width: 50vw;
+    width: 45vw;
   }
 }
