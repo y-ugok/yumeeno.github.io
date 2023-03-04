@@ -3,10 +3,9 @@
 ===================================*/
 .slider {
   /*横幅88%で左右に余白を持たせて中央寄せ*/
-  width: 88%;
+  width: 70%;
   margin: 0 auto;
   padding-top: 1vw;
-  background-color: aliceblue;
 }
 
 .slider img {
@@ -42,13 +41,13 @@
 
 .slick-prev {
   /*戻る矢印の位置と形状*/
-  left: -5%;
+  left: -20%;
   transform: rotate(-135deg);
 }
 
 .slick-next {
   /*次へ矢印の位置と形状*/
-  right: -5%;
+  right: -20%;
   transform: rotate(45deg);
 }
 
@@ -89,6 +88,28 @@
     background: #ccc; /*ドットボタンの色*/
   }
   .slider img {
-    width: 45vw;
+    width: 50vw;
+  }
+}
+@media (min-width: 960px) {
+  .slider {
+    /*横幅88%で左右に余白を持たせて中央寄せ*/
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1vw;
+  }
+  .slick-prev {
+    /*戻る矢印の位置と形状*/
+    left: -5%;
+    transform: rotate(-135deg);
+  }
+
+  .slick-next {
+    /*次へ矢印の位置と形状*/
+    right: -5%;
+    transform: rotate(45deg);
+  }
+  .slider img {
+    width: 30vw;
   }
 }
