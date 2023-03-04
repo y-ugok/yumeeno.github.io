@@ -38,11 +38,9 @@ html.with-featherlight {
   display: inline-block;
   overflow: auto;
   padding: 25px 25px 0;
-  border-bottom: 25px solid transparent;
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 50%;
-  /* max-height: 95%; */
+  max-width: 43%;
   background: #fff;
   cursor: auto;
   white-space: normal;
@@ -102,7 +100,6 @@ html.with-featherlight {
     margin-right: 0;
     max-width: 96%;
     padding: 15px 10px 0;
-    border-bottom: 10px solid transparent;
   }
   .eachTextAnime {
     position: absolute;
@@ -140,7 +137,7 @@ html.with-featherlight {
 #inner7 > img,
 #inner8 > img,
 #inner13 > img {
-  width: 70%;
+  width: 50%;
 }
 #inner6 > img,
 #inner9 > img,
