@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 /*==================================================
 スライダーのためのcss
 ===================================*/
@@ -7,11 +5,12 @@
   /*横幅94%で左右に余白を持たせて中央寄せ*/
   width: 94%;
   margin: 0 auto;
-  padding-top: 0;
+  padding-top: 1vw;
 }
+
 .slider img {
-  width: 30vw;
-  margin: 0 auto;
+  width: 35vw; /*スライダー内の画像を40vwにしてレスポンシブ化*/
+  height: auto;
 }
 
 .slider .slick-slide {
@@ -56,20 +55,20 @@
 
 .slick-dots {
   text-align: center;
-  margin: 0;
+  margin: 20px 0 0 0;
+  padding: 0;
 }
 
 .slick-dots li {
   display: inline-block;
-  margin: 0 1vw;
-  padding: 0;
+  margin: 0 0.3vw;
 }
 
 .slick-dots button {
   color: transparent;
   outline: none;
-  width: 1.5vw; /*ドットボタンのサイズ*/
-  height: 1vw; /*ドットボタンのサイズ*/
+  width: 8px; /*ドットボタンのサイズ*/
+  height: 14px; /*ドットボタンのサイズ*/
   display: block;
   border-radius: 50%;
   background: #ccc; /*ドットボタンの色*/
@@ -78,40 +77,14 @@
 .slick-dots .slick-active button {
   background: #333; /*ドットボタンの現在地表示の色*/
 }
-
-/*========= レイアウトのためのCSS ===============*/
-
-/* h2,
-p {
-  text-align: center;
-  padding: 20px;
-} */
-
-a {
-  color: #333;
-}
-
-a:hover,
-a:active {
-  text-decoration: none;
-}
-
-@media (max-width: 520px) {
-  .slider img {
-    width: 65vw; /*スライダー内の画像を65vwにしてレスポンシブ化*/
-    height: auto;
-  }
-
+@media (max-width: 540px) {
   .slick-dots button {
     color: transparent;
     outline: none;
-    width: 10px;
-    /*ドットボタンのサイズ*/
-    height: 8px;
-    /*ドットボタンのサイズ*/
+    width: 0.05vw; /*ドットボタンのサイズ*/
+    height: 2.8vw; /*ドットボタンのサイズ*/
     display: block;
     border-radius: 50%;
-    background: #ccc;
-    /*ドットボタンの色*/
+    background: #ccc; /*ドットボタンの色*/
   }
 }

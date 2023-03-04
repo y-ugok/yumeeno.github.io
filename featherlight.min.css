@@ -106,7 +106,7 @@ html.with-featherlight {
   .featherlight .featherlight-content {
     margin-left: 0;
     margin-right: 0;
-    max-width: 85%;
+    max-width: 95%;
     padding: 15px 10px 0;
   }
   .eachTextAnime {
@@ -117,7 +117,7 @@ html.with-featherlight {
     text-align: center;
   }
   .featherlight-sample h3 {
-    font-size: 2.3vw;
+    font-size: 3vw;
     margin-top: 0;
     font-family: "Noto Serif JP", serif;
   }
