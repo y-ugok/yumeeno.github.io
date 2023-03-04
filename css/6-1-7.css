@@ -85,15 +85,10 @@
 }
 /* ======================*/
 
-@media (max-width: 540px) {
-  .slider img {
-    width: 61vw;
-  }
-}
 @media (min-width: 960px) {
   .slider {
-    /*横幅88%で左右に余白を持たせて中央寄せ*/
-    width: 50%;
+    /*横幅85%で左右に余白を持たせて中央寄せ*/
+    width: 85%;
     margin: 0 auto;
     padding-top: 1vw;
   }
@@ -110,5 +105,10 @@
   }
   .slider img {
     width: 30vw;
+  }
+}
+@media (max-width: 540px) {
+  .slider img {
+    width: 55vw;
   }
 }
