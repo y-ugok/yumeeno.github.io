@@ -178,6 +178,9 @@ footer {
   }
 }
 @media (min-width: 960px) {
+  .gosyuin {
+    margin-top: 2vw;
+  }
   /* Yumeno's PortfolioのJavascriptここから */
   .eachTextAnime span {
     opacity: 0;
@@ -268,7 +271,6 @@ footer {
     text-align: right;
     transform: rotate(90deg);
     transform-origin: bottom right;
-    /* background-color: white; */
   }
 }
 
@@ -304,6 +306,9 @@ footer {
   margin-bottom: 0;
   font-size: 1vw;
   margin: 8vw 0 0 0;
+}
+.gosyuin p {
+  margin-bottom: 0.75vw;
 }
 .left h1 {
   /* margin-top: 160px; */
@@ -599,6 +604,10 @@ footer {
     font-family: "Noto Serif JP", serif;
     margin-bottom: 0;
     font-size: 3.3vw;
+    margin: 13vw 0 0 0;
+  }
+  .gosyuin p {
+    margin-bottom: 0;
   }
   li {
     font-size: 4.5vw;
